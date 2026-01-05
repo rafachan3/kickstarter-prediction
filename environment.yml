@@ -1,0 +1,15 @@
+name: kickstarter-env
+channels:
+  - conda-forge
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.12
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - seaborn
+  - ipykernel
+prefix: /opt/anaconda3/envs/kickstarter-env
